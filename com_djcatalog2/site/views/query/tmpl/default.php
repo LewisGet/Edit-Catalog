@@ -60,6 +60,22 @@ $user = JFactory::getUser();
 	</div>
 <?php }  ?>
 
+<?php
+$detail = $this->params->get('cart_query_detail', null);
+?>
+
+<?php
+if (!empty($detail) and null !== $detail)
+{
+    ?>
+    <div class="djc_cart djc_cart_checkout djc_clearfix djc_cart_query_detail">
+        <?php echo $detail; ?>
+    </div>
+    <?php
+}
+?>
+
+
 <div class="djc_checkout_form">
 <form action="<?php echo JRoute::_(DJCatalogHelperRoute::getCartRoute());?>" method="post" class="form-validate">
 	<fieldset class="djc_checkout_notes">

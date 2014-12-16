@@ -663,6 +663,9 @@
 				<option
 					value="0">JOPTION_DO_NOT_USE</option>
 			</field>
+
+			<field name="cart_query_detail" type="textarea" label="COM_DJCATALOG2_CART_QUERY_DETAIL" description="COM_DJCATALOG2_CART_QUERY_DETAIL_DESC" />
+
 		    <field name="cart_queryfield_company" type="list" default="1" label="COM_DJCATALOG2_CART_QUERY_COMPANY" description="COM_DJCATALOG2_CART_QUERY_FIELD_DESC">
 		        <option value="0">COM_DJCATALOG2_CONFIG_HIDE</option>
 		        <option value="1">COM_DJCATALOG2_CONFIG_OPTIONAL</option>
