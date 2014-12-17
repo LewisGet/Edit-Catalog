@@ -695,6 +695,12 @@
 		        <option value="1">COM_DJCATALOG2_CONFIG_OPTIONAL</option>
 		        <option value="2">COM_DJCATALOG2_CONFIG_REQUIRED</option>
 		    </field>
+
+			<field name="cart_queryfield_sendtime" type="list" default="1" label="COM_DJCATALOG2_CART_QUERY_SENDTIME" description="COM_DJCATALOG2_CART_QUERY_SENDTIME_DESC">
+				<option value="0">COM_DJCATALOG2_CONFIG_HIDE</option>
+				<option value="1">COM_DJCATALOG2_CONFIG_OPTIONAL</option>
+				<option value="2">COM_DJCATALOG2_CONFIG_REQUIRED</option>
+			</field>
 		    
 		    <field name="cart_queryfield_country_id" type="list" default="1" label="COM_DJCATALOG2_CART_QUERY_COUNTRY" description="COM_DJCATALOG2_CART_QUERY_FIELD_DESC">
 		        <option value="0">COM_DJCATALOG2_CONFIG_HIDE</option>

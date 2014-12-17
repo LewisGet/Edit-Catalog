@@ -86,6 +86,8 @@ $net_prices = (bool)((int)$params->get('price_including_tax', 1) == 0);
 						}
 					?>
 					<div class="controls"><?php echo $value; ?></div>
+					<?php } elseif ($field->fieldname == 'sendtime') { ?>
+					<div class="controls"><?php echo JText::_('COM_DJCATALOG2_UP_SENDTIME_' . $field->value); ?></div>
 					<?php } else {?>
 					<div class="controls"><?php echo $field->value; ?></div>
 					<?php } ?>

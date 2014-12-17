@@ -134,7 +134,7 @@ class Djcatalog2ModelQuery extends JModelForm
 		$form->removeField('client_type', 'djcatalog2profile');
 		$form->removeField('customer_group_id', 'djcatalog2profile');
 		
-		$fields = array('company', 'position', 'address', 'city', 'postcode', 'country_id', 'vat_id', 'phone', 'fax', 'www', 'customer_note');
+		$fields = array('company', 'position', 'address', 'city', 'postcode', 'sendtime', 'country_id', 'vat_id', 'phone', 'fax', 'www', 'customer_note');
 		
 		$group = 'djcatalog2profile';
 		

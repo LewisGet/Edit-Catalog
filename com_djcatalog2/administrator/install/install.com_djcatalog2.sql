@@ -577,6 +577,7 @@ CREATE TABLE IF NOT EXISTS `#__djc2_quotes` (
   `address` varchar(100) DEFAULT NULL,
   `city` varchar(100) DEFAULT NULL,
   `postcode` varchar(100) DEFAULT NULL,
+  `sendtime` int(2) NOT NULL DEFAULT '0',
   `country` varchar(100) DEFAULT NULL,
   `country_id` int(11) NOT NULL,
   `vat_id` varchar(20) DEFAULT NULL,

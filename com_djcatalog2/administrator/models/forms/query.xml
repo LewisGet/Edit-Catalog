@@ -28,6 +28,8 @@
 			class="inputbox input"/>
 		<field name="postcode" type="text" filter="string"
 			label="COM_DJCATALOG2_UP_POSTCODE" class="inputbox input"/>
+		<field name="sendtime" type="text" filter="string"
+			label="COM_DJCATALOG2_UP_SENDTIME" class="inputbox input"/>
 
 		<field name="country" type="text" default=""
 			label="COM_DJCATALOG2_UP_COUNTRY" class="inputbox input" />

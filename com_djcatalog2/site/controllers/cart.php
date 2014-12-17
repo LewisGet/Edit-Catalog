@@ -488,7 +488,14 @@ class DJCatalog2ControllerCart extends JControllerLegacy
 		$quote['address'] 			= !empty($quoteData['address']) ? $quoteData['address'] : '';
 		$quote['city'] 				= !empty($quoteData['city']) ? $quoteData['city'] : '';
 		$quote['postcode'] 			= !empty($quoteData['postcode']) ? $quoteData['postcode'] : '';
-		
+
+		$quote['sendtime'] =
+			(
+				!empty($quoteData['sendtime']) and
+				in_array($quoteData['sendtime'], array(0, 1, 2, 3))
+			) ?
+				$quoteData['sendtime'] : '';
+
 		$quote['country_id'] 		= !empty($quoteData['country_id']) ? $quoteData['country_id'] : '';
 		
 		if ((empty($quoteData['country_name']) || $quoteData['country_name'] == '*') && !empty($quoteData['country_id'])) {
